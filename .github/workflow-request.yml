@@ -42,6 +42,8 @@
 # file is a repository-side declaration, not an executable workflow.
 requested:
   - ci-validation
+  - codeql-scan
+  - maven-package-publish
   - maven-package-publish
 
 # For a workflow that is not in the menu, describe the GENERAL capability needed.
